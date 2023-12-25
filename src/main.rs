@@ -116,7 +116,7 @@ fn calculate_physics(state:&mut State){ // TODO make multiple balls
 }
 
 fn update_cursor(window:&RenderWindow,state:&mut State){
-    let mut mc = window.mouse_position();
+    let mc = window.mouse_position();
     state.cursor.set_position((mc.x as f32-state.options.cursor_size, mc.y as f32-state.options.cursor_size));
 
     let dots = state.cursor_dots.len();
