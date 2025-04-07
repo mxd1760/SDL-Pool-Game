@@ -2,7 +2,7 @@
 
 This is a simple physics simulation to help practice and get experience with handling rigidbody collisions. 
 
-![](SFML_pool_game.gif)
+![](SFMLpoolgame.gif)
 
 ## How to run
 
