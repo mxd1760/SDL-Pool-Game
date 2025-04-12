@@ -7,9 +7,9 @@ This is a simple physics simulation to help practice and get experience with han
 ## How to run
 
  - clone repo
- - make sure you have a rust compiler installed
+ - make sure you have a [rust](https://www.rust-lang.org/) compiler installed at version 1.82 or later
+ - make sure you have [cmake](https://cmake.org/)
+ - linux has some extra dependencies that can be found [here](https://crates.io/crates/sfml/0.24.0)
  - be sure to cd into repo from a terminal application
  - run `cargo build` to build the exe in target/debug
- - the project depends on some SFML2 dlls so go to the [SFML downloads page](https://www.sfml-dev.org/download/sfml/2.6.2/) and download the appropriate files for your machine
- - after they are downloaded either add the bin folder to your system path or copy the contents of the bin folder into the target/debug folder alongside the exe file.
- - you can either double click the exe or use `cargo run` to run the program
+ - you can either double click the exe in target/debug or use `cargo run` to run the program
