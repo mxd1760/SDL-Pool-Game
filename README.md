@@ -14,11 +14,16 @@ This is a simple physics simulation to help practice and get experience with han
       winget install -e --id Kitware.CMake
       ```
     - mac:
-      ```
-      /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-      brew install cmake
-      ```
-    - linux: use your package manager to install cmake
+       - install homebrew package manager
+         ```
+         /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+         ```
+       - use homebrew to install cmake
+         ```
+         brew install cmake
+         ```
+    - linux:
+       - use your package manager to install cmake
  - linux has some extra dependencies that can be found [here](https://crates.io/crates/sfml/0.24.0)
  - be sure to cd into repo from a terminal application
  - run `cargo build` to build the exe in target/debug
